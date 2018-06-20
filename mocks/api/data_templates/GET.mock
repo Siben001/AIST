@@ -1,0 +1,1935 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+	[
+
+      {
+
+          "data": {
+
+              "STANDNAME": "IFT"
+
+          },
+
+          "name": "IFT"
+
+      },
+
+      {
+
+          "data": {
+
+              "ExtraInfo_EXISTCARD1": "нет",
+
+              "RealEstateObjectInfo_ADDRESS": "г. Москва, ул. Тверская 18",
+
+              "Investor_CAContactPhone": "generate:Numeric:10",
+
+              "JobSalaryInfo3_QTYOFEMPLOYEE": "Более 100",
+
+              "RightOfOwnershipOfRealEstate_DATE": "generate:DateAgeInYears:3,5",
+
+              "Authorized1_SURNAME1": "generate:Surname",
+
+              "MainEmployer2_PHONECODE": "7",
+
+              "PartofApplication_SECONDNAME": "generate:Secondname",
+
+              "ReportPledgeRealEstate_PRICE": "2000000",
+
+              "VisualCheckReportRealEstate_VISCHECKLEG": "Да",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK2": "Нет",
+
+              "ClientInfo_PASSPORTCODE": "537-772",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK1": "Нет",
+
+              "XMLInfo_PROCESSING_TYPE2": "возврат после корректировки",
+
+              "InitialContributionInfo_SUBSIDIYAIND": "Нет",
+
+              "JobSalaryInfo_QTYOFEMPLOYEE": "Более 100",
+
+              "VisualCheckReportRealEstate_VISCHECKEXTRADOC": "Да",
+
+              "RealEstateObjInfo_PAWN": "Залог до выдачи кредита",
+
+              "RefinanceExternalDebtsInfo_RATEOFCREDITOBLIGATION1": "17",
+
+              "Authorized1_ISSUEDBY": "generate:String:8",
+
+              "ClientInfo_CODE": "537-772",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK9": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK8": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK7": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK6": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK5": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK4": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK3": "Нет",
+
+              "RefinanceExternalDebtsInfo_CURRENCYOBLIGATION1": "Рубли",
+
+              "MainEmployer_DATEOFDOC": "generate:Date:Today",
+
+              "LoginInfo_LoginCOSS": "auto_coss_tb",
+
+              "ExtraInfo2_ACCEPTCREDITCARDSBRF": "Нет",
+
+              "RefinanceExternalDebtsInfo_CREADITAMOUNTOBLIGATION1": "1000000",
+
+              "OKRBlanket_BLOCKS1": "Participant.АССД,Participant.БРС,Participant.ОКБ,Participant.TSM,Participant.Эквифакс,Participant.МБКИ,Participant.MDM,Participant.PPRB_ML,Participant.PPRB_ML_PT,Participant.Стоп-лист,Participant.ЦОД,Participant.ЦОД Ипотека,Application.ГСЗ,Application.TSM,Application.Hunter",
+
+              "ClientInfo_PRESECONDNAME": "generate:Secondname",
+
+              "OKRBlanket_BLOCKS2": "Application.БРС,Application.Hunter,Application.МБКИ,Application.SRG,Application.Стоп-лист",
+
+              "PropertyInfo2_PRICEOFCAR": "300000",
+
+              "JobSalaryInfo_INNOFEMPLOER": "generate:INN:10",
+
+              "Authorized1_TYPEAUTHORIZED": "Доверенное лицо",
+
+              "DebtsInfo2_AMOUNTOFPAYMENT": "8000",
+
+              "VerificationContrAgent_VERVAR2": "Нет",
+
+              "VerificationContrAgent_VERVAR1": "Нет",
+
+              "PartofApplication_ROLE1": "Да",
+
+              "RealEstateObjectInfo_MATERIAL": "Кирпичный",
+
+              "Developer_STATE": "Подтвержден",
+
+              "AssdInfo_CLIENTTYPECODE": "2",
+
+              "CreditInfo_TBOSBVSP1": "7954",
+
+              "JobSalaryInfo_DURATIONOFWORK": "от 5 до 10 лет",
+
+              "CreditInfo_TBOSBVSP2": "01756",
+
+              "DebtsInfo_DEBTEXPIRATION": "10.01.2016",
+
+              "LoginInfo_PasswordSgk": "12345",
+
+              "MainEmployer_TYPEOFORG": "ООО (Общ. с огран. ответственностью)",
+
+              "PartofApplication_MOBNUMBER": "generate:Numeric:7",
+
+              "ClientInfo_DATEOFISSUE": "generate:DateAgeInYears:1,4",
+
+              "PhoneVerificationInfo2_REGPHONEVERRESULT": "Да",
+
+              "PropertyInfo2_EXTPASSPORT": "Нет",
+
+              "RealEstateObjectInfo_STATEOFRE": "Хорошее состояние",
+
+              "Developer_KPP": "500901001",
+
+              "DocumentsVisualEstimation_PERSINFOEMPL": "Тот же сотрудник, который зарегистрировал заявку в системе",
+
+              "Authorized1_TYPEOFPASSPORT": "Общегражданский паспорт",
+
+              "EmploymentBook2_FULLNAME": "link:JobSalaryInfo2.FULLNAMEOFCOMPANY",
+
+              "RelationsInfo3_QTYFAMILY": "1",
+
+              "MortgagingProperty_GOSREG": "Нет",
+
+              "CurrentAddressofRealsEstateObj_INDEX": "125009",
+
+              "RefinanceExternalDebtsInfo_PAYMENTTYPEOBLIGATION1": "Аннуитетный",
+
+              "CurrentAddressofRealsEstateObj_NUMBEROFHOUSE": "14",
+
+              "PartofApplication_WPHOMEPROVIDER": "generate:Numeric:3",
+
+              "RelationsInfo_CHILDREN": "Нет",
+
+              "MainEmployer_NAME": "generate:Name",
+
+              "PhoneVerificationInfo1_REGPHONEVERRESULT": "Да",
+
+              "EmploymentBook_POSITION": "Специалист",
+
+              "PartofApplication_PREFERCONTACT": "Мобильный телефон",
+
+              "ReportPledgeRealEstate_REEXISTINREPORT": "Да",
+
+              "MortgagingProperty_MATERIAL": "Кирпич",
+
+              "EmploymentInfo_QTYWORKPLACES": "1",
+
+              "ContractorCorp_CAContactMail": "mail@mail.ru",
+
+              "AddressInfo_ROOMNUMBEROFFACT": "generate:Numeric:3",
+
+              "LoginInfo_LoginCOSSNew": "coss_new",
+
+              "AddressInfo_TYPESTREETOFFACT": "ул",
+
+              "PartofApplication2_ROLE4": "Да",
+
+              "JobSalaryInfo2_INNOFEMPLOER": "generate:INN:10",
+
+              "ReportPledgeRealEstate_CURR": "Рубли",
+
+              "PartofApplication2_ROLE3": "Да",
+
+              "JobSalaryInfo2_QTYOFEMPLOYEE": "Более 100",
+
+              "EmploymentInfo_TOTALEXPIRIENCE1": "3",
+
+              "ReportRealEstate_CURR": "Рубли",
+
+              "EmploymentInfo_TOTALEXPIRIENCE2": "0",
+
+              "EmploymentInfo_TOTALEXPIRIENCE3": "3",
+
+              "PartofApplication_HREGPHOMEPROVIDER": "generate:Numeric:3",
+
+              "EmploymentInfo_TOTALEXPIRIENCE4": "0",
+
+              "MainEmployer2_NAME": "generate:Name",
+
+              "LoginInfo_PasswordA0": "12345",
+
+              "PartofApplication2_WPHOMECODE": "7",
+
+              "Authorized1_BIRTHDAY": "generate:DateAgeInYears:27,39",
+
+              "XMLInfo_PROCESSING_STEP": "1",
+
+              "JobSalaryInfo3_EXPENSE6M": "0",
+
+              "ClientAddressInfo2_REGIONOFPERMANENT": "Москва",
+
+              "JobSalaryInfo3_TYPEOFACTIVITY": "Финансы, банки, страхование",
+
+              "MainEmployer2_POSITION": "Ген.Директор",
+
+              "PartofApplication2_EDUCATION": "Второе высшее",
+
+              "Common_ACCEMPPOSITION": "3",
+
+              "AddressInfo_MANUALINPUTFORPERMANENT": "Да",
+
+              "Investor_STATE": "Подтвержден",
+
+              "PartofApplication_NUMBER": "generate:Numeric:6",
+
+              "Contractor1_TYPEOFPASSPORT": "Общегражданский паспорт",
+
+              "EmploymentBook2_DATEOFSTART": "generate:DateAgeInYears:3,5",
+
+              "JobSalaryInfo2_QTYOFWORKPLACE": "1",
+
+              "Investor_KPP": "500901001",
+
+              "RealEstateObjectInfo_GOSREG": "Нет",
+
+              "Contractor1_TYPEOFCONTRAGENT": "Продавец",
+
+              "AddressInfo_STREETOFPERMANENT": "Тверская",
+
+              "Authorized1_NUMBER": "generate:Numeric:6",
+
+              "PhoneVerificationInfo2_LPHONEVERIND": "Да",
+
+              "PropertyInfo_CARAGE": "2",
+
+              "LoginInfo_LoginUrist": "urist",
+
+              "ContractofSaleInf_NCONTRACT": "generate:Numeric:3",
+
+              "MainEmployer_SURNAME": "generate:Surname",
+
+              "PartofApplication2_EPHOMECODE": "7",
+
+              "ExtraInfo2_ACCEPTPFR": "Нет",
+
+              "ExtraInfo_EXISTEMPLDEPOSIT": "Нет",
+
+              "LoginInfo_PasswordSKI": "12345",
+
+              "JobSalaryInfo3_CONTRACT": "Без сроkа (постоянная занятость)",
+
+              "ExtraInfo2_ACCEPTBKI": "Да",
+
+              "JobSalaryInfo2_ADDITIONALINCOME6M": "0",
+
+              "InitialContributionInfo_CUR": "Рубли",
+
+              "Common_SUBSYSTEMCODE": "UFS_MORTGAGE",
+
+              "SaleChannel_SAPID": "generate:Numeric:4",
+
+              "ClientInfo_MOBPHONENMBER": "generate:Numeric:7",
+
+              "MortgagingProperty_REGION": "63",
+
+              "RefinanceExternalDebtsInfo_LENDER1": "БАНК ВТБ (ПАО) Г.МОСКВА",
+
+              "ClientInfo_HOMEPHONECODE": "7",
+
+              "JobSalaryInfo3_QTYOFWORKPLACE": "1",
+
+              "XMLInfo_SUBPRODUCT_EKPIT": "111",
+
+              "Developer_CONTRAGENT": "Общество с ограниченной ответственностью Северная компания",
+
+              "AssdInfo_DATECONTRACT": "generate:Date:Today-730",
+
+              "JobSalaryInfo_ADDITIONALINCOME6M": "0",
+
+              "RightOfOwnershipOfRealEstate_GOSREG": "Да",
+
+              "SaleChannel_CHANNELTYPE": "Клиент",
+
+              "DebtsInfo2_DEBTEXPIRATION": "10-окт-2015",
+
+              "MortgagingProperty_QTYROOM": "1",
+
+              "PartofApplication2_ISSUEDBY": "generate:String:8",
+
+              "PartofApplication2_SURNAME": "generate:Surname",
+
+              "CreditInfo_GOAL": "Да",
+
+              "AddressInfo_INDEXOFFACT": "125009",
+
+              "ExtraInfo2_EXISTEMPLDEPOSIT": "Нет",
+
+              "JobSalaryInfo2_TYPEOFACTIVITY": "Финансы, банки, страхование",
+
+              "PropertyInfo2_REGNUMOFCAR": "generate:CarStateNumber",
+
+              "Common_LOGINKI": "coss_tb",
+
+              "RightOfOwnershipOfRealEstate_AUTHORITY": "Департамент",
+
+              "ControlFlowParticipant1_CHECKVAR13": "Нет",
+
+              "Authorized1_CODE": "generate:PassportCode",
+
+              "PartofApplication_EPHOMECODE": "7",
+
+              "ControlFlowParticipant1_CHECKVAR12": "Нет",
+
+              "ControlFlowParticipant1_CHECKVAR11": "Нет",
+
+              "RelationsInfo2_AGROFMARR": "Нет",
+
+              "ControlFlowParticipant1_CHECKVAR10": "Нет",
+
+              "CreditInfo_TYPECREDIT": "Жилищное кредитование",
+
+              "ControlFlowParticipant1_CHECKVAR17": "Нет",
+
+              "ControlFlowParticipant1_CHECKVAR16": "Нет",
+
+              "ControlFlowParticipant1_CHECKVAR15": "Нет",
+
+              "AssdInfo_DATEOFFINISH": "generate:Date:Today+730",
+
+              "PartofApplication2_NUMBER": "generate:Numeric:6",
+
+              "ControlFlowParticipant1_CHECKVAR14": "Нет",
+
+              "Authorized1_DATEOFISSUE": "generate:DateAgeInYears:1,4",
+
+              "Investor_INN": "generate:INN:10",
+
+              "JobSalaryInfo3_INNOFEMPLOER": "7712026410",
+
+              "PropertyInfo2_YEAROFPURCHASE": "2010",
+
+              "ReportVerification_OBJECT": "Отражено",
+
+              "CurrentAddressofRealsEstateObj_REGION": "Москва",
+
+              "ClientAddressInfo2_MANUALINPUTFORPERMANENT": "Да",
+
+              "OrganizationInsName_OGRN": "generate:OGRN:13",
+
+              "AssdInfo_CREIDAMOUNT": "600000",
+
+              "JobSalaryInfo3_CONFIRMEDINCOME6M": "70000",
+
+              "DocumentsVisualEstimation_DCOVISPOINT1": "Нет",
+
+              "CurrentAddressofRealsEstateObj_NUMBEROFROOM": "generate:Numeric:3",
+
+              "XMLInfo_PROCESSING_TYPE": "Новая заявка",
+
+              "PartofApplication2_MOBPROVIDER": "generate:Numeric:3",
+
+              "DocumentsVisualEstimation_DCOVISPOINT3": "Нет",
+
+              "Authorized1_DATEOFAUTH": "generate:Date:Today",
+
+              "ClientInfo_HOMEREGPHONECODE": "7",
+
+              "DocumentsVisualEstimation_DCOVISPOINT2": "Нет",
+
+              "JobSalaryInfo_FULLNAMEOFCOMPANY": "generate:String:8",
+
+              "UnderiterResolution1_RESOLUTION": "Предоставить",
+
+              "MainEmployer_SECONDNAME": "generate:Secondname",
+
+              "DocumentsVisualEstimation_DCOVISPOINT5": "Нет",
+
+              "PropertyInfo2_SQ": "54",
+
+              "DocumentsVisualEstimation_DCOVISPOINT4": "Нет",
+
+              "ClientInfo_NAME": "generate:Name",
+
+              "PartofApplication2_HREGPHOMECODE": "7",
+
+              "DocumentsVisualEstimation_DCOVISPOINT7": "Комментарий",
+
+              "PropertyInfo2_UNIT": "кв.м.",
+
+              "PartofApplication_HPHOMEPROVIDER": "generate:Numeric:3",
+
+              "DocumentsVisualEstimation_DCOVISPOINT6": "Да",
+
+              "MainEmployer2_INCOME2": "link:JobSalaryInfo2.CONFIRMEDINCOME6M",
+
+              "ClientAddressInfo2_TYPECITYOFFACT": "г",
+
+              "Developer_INN": "generate:INN:10",
+
+              "PartofApplication2_HREGPHOMEPROVIDER": "generate:Numeric:3",
+
+              "XMLInfo_OPERATORLOGIN": "ki",
+
+              "LoginInfo_LoginAuditor": "auditor",
+
+              "PartofApplication2_WPHOMENUMBER": "generate:Numeric:7",
+
+              "PartofApplication_PROVIDER": "Билайн",
+
+              "ExtraInfo2_EXISTCARD1": "нет",
+
+              "PartofApplication_WPHOMENUMBER": "generate:Numeric:7",
+
+              "ClientAddressInfo2_HOUSENUMBEROFFACT": "19",
+
+              "MortgagingProperty_LIVINGSQ": "21",
+
+              "ClientInfo_DATEOFISSUE2": "generate:DateAgeInYears:5,15",
+
+              "LoginInfo_PasswordLpr": "12345",
+
+              "JobSalaryInfo2_TYPEOFCOMPANY": "ООО (Общ. с огран. ответственностью )",
+
+              "OrganizationInsName_OPF": "ЗАО",
+
+              "ClientInfo_PASSPORTDATEOFISSUE": "generate:DateAgeInYears:1,4",
+
+              "PhoneVerificationInfo2_WPHONEVERIND": "Да",
+
+              "ClientInfo_CHANGEDPERSINFO": "Нет",
+
+              "ClientInfo_HOMEPHONENUMBER": "generate:Numeric:7",
+
+              "PropertyInfo_TYPEOFREALESTATE": "Квартира",
+
+              "MainEmployer2_INCOME": "link:JobSalaryInfo2.CONFIRMEDINCOME6M",
+
+              "MortgagingProperty_CATEGORY": "Жилое",
+
+              "PartofApplication_PREVPASPORT": "Нет",
+
+              "ClientAddressInfo2_CITYOFFACT": "Москва",
+
+              "MortgagingProperty_FLOOR": "7",
+
+              "PartofApplication_MOBCODE": "7",
+
+              "PropertyInfo_UNIT": "кв.м.",
+
+              "Developer_CAContactPhone": "generate:Numeric:10",
+
+              "RefinanceExternalDebtsInfo_DATEOFCREDIT1": "generate:Date:Today-1095",
+
+              "Developer_OGRN": "generate:OGRN:13",
+
+              "ContractofSaleInf_DOCREALESTATEGROUND": "Договор аренды",
+
+              "ClientInfo_PRESURNAME": "generate:Surname",
+
+              "ReportVerification_RESULTPRICE": "2000000",
+
+              "AssdInfo_NUMREQUEST": "generate:Numeric:20",
+
+              "EmploymentInfo2_QTYWORKPLACES": "1",
+
+              "MainEmployer2_SURNAME": "generate:Surname",
+
+              "PartofApplication_DATEOFISSUE": "generate:DateAgeInYears:1,4",
+
+              "CreditInfo_AMOUNT2": "1000000",
+
+              "VerificationFlowREObj_RESOLUTION": "Предоставить",
+
+              "ContractorCorp_OGRN": "generate:OGRN:13",
+
+              "AddressInfo_CITYOFFACT": "Москва",
+
+              "Authorized1_NAME": "generate:Name",
+
+              "PhoneVerificationInfo1_REGPHONEVERIND": "Да",
+
+              "Contractor1_SECONDNAME": "generate:Secondname",
+
+              "LoginInfo_PasswordCOSS": "12345",
+
+              "PhoneVerificationInfo2_REGPHONEVERIND": "Да",
+
+              "OrganizationInsName_ORGNAME": "Закрытое акционерное общество \"Евроэксперт\"",
+
+              "Developer_OPF": "ООО",
+
+              "ClientInfo_CLIENTGROUP": "D",
+
+              "ClientAddressInfo2_INDEXOFPERMANENT": "125009",
+
+              "LoginInfo_LoginLm": "lm",
+
+              "AddressInfo_HOUSENUMBEROFFACT": "19",
+
+              "ClientAddressInfo2_ROOMNUMBEROFFACT": "generate:Numeric:3",
+
+              "SaleChannel_PERSON": "Работник ВСП Банка",
+
+              "RealEstateObjectInfo_FLOOR": "6",
+
+              "PartofApplication_DATEOFBIRTH": "generate:DateAgeInYears:27,39",
+
+              "PartofApplication_EPHOMENUMBER": "generate:Numeric:7",
+
+              "Common_Название переменной": "Значение переменной",
+
+              "JobSalaryInfo_EXPENSE6M": "0",
+
+              "JobSalaryInfo2_CONFIRMEDINCOME6M": "70000",
+
+              "PropertyInfo_YEAROFPURCHASECAR": "2013",
+
+              "AssdInfo_IDIST": "0017000001",
+
+              "PropertyInfo_PRICE": "10000000",
+
+              "Investor_STATE2": "АКТИВНАЯ",
+
+              "Contractor1_CODE": "generate:PassportCode",
+
+              "AddressInfo_ACTUALADDRESSSTAYS": "5",
+
+              "ReportRealEstate_REEXISTINREPORT": "Да",
+
+              "LoginInfo_LoginSgk": "sgk",
+
+              "JobSalaryInfo3_CATEGORYOFJOB": "Высококвалифицированный специалист",
+
+              "ClientAddressInfo2_CITYOFPERMANENT": "Москва",
+
+              "PartofApplication2_SERIE": "generate:Numeric:4",
+
+              "RealEstateObjectInfo_REGION": "Московская область",
+
+              "Investor_OPF": "ООО",
+
+              "CreditInfo_DURATION": "180",
+
+              "ReportRealEstate_PRICE": "2000000",
+
+              "PartofApplication2_SECONDNAME": "generate:Secondname",
+
+              "PartofApplication2_DATEOFISSUE": "generate:DateAgeInYears:1,4",
+
+              "PartofApplication2_NAME": "generate:Name",
+
+              "MortgagingProperty_KITCHENSQ": "7",
+
+              "DebtsInfo_DEBTNO": "generate:ContractNumber",
+
+              "RelationsInfo3_AGROFMARR": "Нет",
+
+              "PartofApplication2_PREVSECONDNAME": "generate:Secondname",
+
+              "PartofApplication2_BIRTHPLACE": "generate:String:8",
+
+              "ClientAddressInfo2_LOCALITYSTAYS": "5",
+
+              "CreditInfo_AMOUNT": "1000000",
+
+              "Authorized1_SECONDNAME": "generate:Secondname",
+
+              "MortgagingProperty_TYPEOFUSE": "A",
+
+              "PartofApplication2_INN": "generate:INN:12",
+
+              "EmploymentBook2_NUMBER": "generate:Numeric:7",
+
+              "CreditInfo_NAMEOFPRODUCT": "Ипотека готовое жилье_Темников_Автотест",
+
+              "ReportVerification_PRICE2": "2000000",
+
+              "PartofApplication_MOBPROVIDER": "generate:Numeric:3",
+
+              "ReportVerification_PRICE1": "2000000",
+
+              "JobSalaryInfo2_CATEGORYOFJOB": "Высококвалифицированный специалист",
+
+              "PartofApplication_EPHOMEPROVIDER": "generate:Numeric:3",
+
+              "ClientInfo_HOMEPHONEPROVIDER": "generate:Numeric:3",
+
+              "PartofApplication2_CITIZENSHIP": "Российская Федерация",
+
+              "JobSalaryInfo3_TYPEOFCOMPANY": "ООО (Общ. с огран. ответственностью )",
+
+              "DriverLicense_ISSUER": "generate:String:8",
+
+              "ControlFlowParticipant2_CHECKVAR11": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR12": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR13": "Нет",
+
+              "JobSalaryInfo3_FAMILYINCOME6M": "70000",
+
+              "ControlFlowParticipant2_CHECKVAR14": "Нет",
+
+              "LoginInfo_LoginROBOT": "sgk_99",
+
+              "ControlFlowParticipant1_CHECKVAR3": "Нет",
+
+              "RefinanceExternalDebtsInfo_RESTOFCREDITOBLIGATION1": "600000",
+
+              "MainEmployer_NAMEOFORG": "link:JobSalaryInfo.FULLNAMEOFCOMPANY",
+
+              "ControlFlowParticipant1_CHECKVAR4": "Нет",
+
+              "ControlFlowParticipant1_CHECKVAR1": "Нет",
+
+              "ClientInfo_PREFFERTYPE": "Мобильный телефон",
+
+              "ControlFlowParticipant1_CHECKVAR2": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR10": "Нет",
+
+              "ReportVerification_APPROVEDRESULTS": "Отражено",
+
+              "RealEstateObjInfo_UNFINANCING": "Нет",
+
+              "CreditInfo_TBOSBVSP": "99",
+
+              "ControlFlowParticipant2_CHECKVAR15": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR16": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR17": "Нет",
+
+              "ClientAddressInfo2_ACTUALADDRESSSTAYS": "5",
+
+              "AssdInfo_CREIDAMOUNTREST": "400000",
+
+              "ClientAddressInfo2_BUILDINGOFFACT": "generate:Numeric:1",
+
+              "EmploymentBook_FULLNAME": "link:JobSalaryInfo.FULLNAMEOFCOMPANY",
+
+              "MortgagingProperty_FLOORQTY": "24",
+
+              "ControlFlowParticipant2_CHECKVAR9": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR8": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR7": "Нет",
+
+              "ExtraInfo2_CODEOFBKI": "212121212",
+
+              "AddressInfo_TYPECITYOFFACT": "г",
+
+              "ControlFlowParticipant2_CHECKVAR6": "Нет",
+
+              "PartofApplication_CHANGEDNAME": "Нет",
+
+              "ControlFlowParticipant2_CHECKVAR5": "Нет",
+
+              "PropertyInfo2_PRICE": "10000000",
+
+              "ControlFlowParticipant2_CHECKVAR4": "Нет",
+
+              "PartofApplication2_GENDER": "Женский",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECKCOMMENT": "Текст",
+
+              "Investor_OGRN": "generate:OGRN:13",
+
+              "ContractorCorp_STATE": "Подтвержден",
+
+              "MainEmployer2_INNORG": "link:JobSalaryInfo2.INNOFEMPLOER",
+
+              "PartofApplication_TYPE": "Физическое лицо",
+
+              "ClientAddressInfo2_RIGHTOFRESIDENCE": "Собственная квартира",
+
+              "PartofApplication_BIRTHPLACE": "generate:String:8",
+
+              "PartofApplication_PREVNAME": "generate:Name",
+
+              "PropertyInfo_YEAROFPURCHASE": "2010",
+
+              "PhoneVerificationInfo1_MOBPHONEVERIND": "Да",
+
+              "ContractorCorp_SALERCORP": "Да",
+
+              "ClientInfo_EXTRAPHONETYPE": "Мобильный",
+
+              "PartofApplication_SURNAME": "generate:Surname",
+
+              "ClientInfo_ISSUEDBY2": "generate:String:8",
+
+              "VisualCheckReportRealEstate_VISCHECKDATEIND": "Да",
+
+              "MainEmployer2_TYPEOFDOC": "Справkа 2-НДФЛ",
+
+              "ExtraInfo_ACCEPPFR": "Нет",
+
+              "AssdInfo_IDCONTRACT": "generate:Numeric:20",
+
+              "DebtsInfo_AMOUNTOFPAYMENT": "8000",
+
+              "PartofApplication_GENDER": "Женский",
+
+              "JobSalaryInfo2_JOBTITLE": "generate:String:8",
+
+              "Authorized1_NAME1": "generate:Name",
+
+              "ExtraInfo_CODEBKI": "212121212",
+
+              "PartofApplication_INN": "generate:INN:12",
+
+              "ReportVerification_TABLEPRICE": "Отражено",
+
+              "CreditInfo_NAMEOFSUBPRODUCT": "Ипотека готовое жилье_Темников_Автотест",
+
+              "AssdInfo_FILENAME": "MortgageTemplate.NNT",
+
+              "Investor_SALERCORP": "Да",
+
+              "PartofApplication2_SERIE2": "generate:Numeric:4",
+
+              "ClientAddressInfo2_BUILDINGOFPERMANENT": "generate:Numeric:1",
+
+              "LoginInfo_LoginSKI": "s_ki_99",
+
+              "JobSalaryInfo_JOBTITLE": "generate:String:8",
+
+              "PartofApplication_EXISTPARTICIPANT": "false",
+
+              "PropertyInfo_TYPEOFCAR2": "generate:CarType",
+
+              "Contractor1_NUMBER": "generate:Numeric:6",
+
+              "Investor_CAContactMail": "mail@mail.ru",
+
+             "RightOfOwnershipOfRealEstate_NUMBERRECORD": "generate:Numeric:2",
+
+              "Contractor1_NAME": "generate:Name",
+
+              "JobSalaryInfo_QTYOFWORKPLACE": "1",
+
+              "UnderiterResolution2_RESOLUTION": "Предоставить",
+
+              "ClientAddressInfo2_MATCHINGADDRESS": "Нет",
+
+              "PartofApplication_EXTRAPHOMETYPE": "Мобильный",
+
+              "ClientInfo_SERIE2": "generate:Numeric:4",
+
+              "MainEmployer_TYPEOFDOC": "Справkа 2-НДФЛ",
+
+              "ClientAddressInfo2_TYPECITYOFPERMANENT": "г",
+
+              "ClientAddressInfo2_ROOMNUMBEROFPERMANENT": "generate:Numeric:3",
+
+              "ContractorCorp_CAContactFIO": "Дятлов Федор Юрьевич",
+
+              "ClientVisualEstimation_CLIENTVISPOINT1": "Нет",
+
+              "PartofApplication_EMAIL": "mail@mail.ru",
+
+              "PartofApplication2_CODE": "generate:PassportCode",
+
+              "ClientVisualEstimation_CLIENTVISPOINT3": "Нет",
+
+              "ClientVisualEstimation_CLIENTVISPOINT2": "Нет",
+
+              "ClientVisualEstimation_CLIENTVISPOINT5": "Нет",
+
+              "RelationsInfo_AGROFMARR": "Нет",
+
+              "ClientVisualEstimation_CLIENTVISPOINT4": "Опрятный ( аккуратно одет, причесан, выбрит, и т.д.)",
+
+              "ClientVisualEstimation_CLIENTVISPOINT7": "Нет",
+
+              "ClientVisualEstimation_CLIENTVISPOINT6": "Нет",
+
+              "PhoneVerificationInfo1_WPHONEVERRESULT": "Да",
+
+              "MainEmployer2_SECONDNAME": "generate:Secondname",
+
+              "ClientVisualEstimation_CLIENTVISPOINT9": "Комментарий",
+
+              "PartofApplication2_PREVSURNAME": "generate:Surname",
+
+              "ClientVisualEstimation_CLIENTVISPOINT8": "Нет",
+
+              "ControlFlowParticipant1_CHECKVAR7": "Нет",
+
+              "ClientInfo_GENDER": "Мужской",
+
+              "PartofApplication_SERIE2": "generate:Numeric:4",
+
+              "ControlFlowParticipant1_CHECKVAR8": "Нет",
+
+              "ClientInfo_MOBPHONECODE": "7",
+
+              "ControlFlowParticipant1_CHECKVAR5": "Нет",
+
+              "UnderiterResolution2_SUBCOMMENT": "ТВ проведена по телефону по месту регистрации ",
+
+              "ControlFlowParticipant1_CHECKVAR6": "Нет",
+
+              "ContractofSaleInf_NDOCRE": "generate:Numeric:3",
+
+              "ControlFlowParticipant1_CHECKVAR9": "Нет",
+
+              "SaleChannel_CHANNEL": "ВСП",
+
+              "ContractofSaleInf_CURR": "Рубли",
+
+              "ContractofSaleInf_DOCREALESTATE": "Договор купли-продажи",
+
+              "DocumentsVisualEstimation2_EMPLINFO": "Тот же сотрудник, который зарегистрировал заявку в системе",
+
+              "LoginInfo_PasswordCOSSNew": "123456",
+
+              "AddressInfo_CITYOFPERMANENT": "Москва",
+
+              "CreditInfo_TYPEOFPAYMENT": "Аннуитетные платежи",
+
+              "RealEstateObjectInfo_COMMONSQ": "60",
+
+              "RightOfOwnershipOfRealEstate_SERIE": "generate:Numeric:3",
+
+              "DebtsInfo2_PERCENTAGE": "10",
+
+              "MainEmployer_PHONENUMBER": "generate:Numeric:7",
+
+              "AddressInfo_REGIONOFPERMANENT": "Москва",
+
+              "DebtsInfo_DEBTDATE": "10.01.2013",
+
+              "MainEmployer_INNORG": "link:JobSalaryInfo.INNOFEMPLOER",
+
+              "RelationsInfo_QTYFAMILY": "1",
+
+              "PhoneVerificationInfo1_MOBPHONEVERRESULT": "Да",
+
+              "Contractor1_SURNAME": "generate:Surname",
+
+              "OrganizationInsName_KPP": "380801001",
+
+              "ContractorCorp_CONTRAGENT": "Общество с ограниченной ответственностью \"Мажино\"",
+
+              "MainEmployer2_NAMEOFORG": "link:JobSalaryInfo2.FULLNAMEOFCOMPANY",
+
+              "PartofApplication2_WPHOMEPROVIDER": "generate:Numeric:3",
+
+              "MortgagingProperty_STATEOFRE": "Хорошее состояние",
+
+              "ClientAddressInfo2_STREETOFFACT": "Тверская",
+
+              "EmploymentBook_DATEOFSTART": "generate:DateAgeInYears:3,5",
+
+              "PhoneVerificationInfo2_MOBPHONEVERIND": "Да",
+
+              "PartofApplication_DATEOFISSUE2": "generate:DateAgeInYears:5,15",
+
+              "PhoneVerificationInfo2_MOBPHONEVERRESULT": "Да",
+
+              "ClientInfo_CITIZENSHIP": "Российская Федерация",
+
+              "SelectedSaller1_NAMEOF": "link:Contractor1.SURNAME",
+
+              "JobSalaryInfo_CONTRACT": "Без сроkа (постоянная занятость)",
+
+              "RefinanceExternalDebtsInfo_REFERENCEDATE1": "generate:Date:Yesterday",
+
+              "ExtraInfo_ACCEPTBKI": "Да",
+
+              "Authorized1_SURNAME": "generate:Surname",
+
+              "ContractofSaleInf_CONTRANCTIND": "Да",
+
+              "ReportVerification_COSTISNOOBJECT": "Нет",
+
+              "RightOfOwnershipOfRealEstate_NUMBER": "generate:Numeric:6",
+
+              "CurrentAddressofRealsEstateObj_CITY": "Москва",
+
+              "ClientInfo_EDUCTAION": "Второе высшее",
+
+              "PartofApplication_HPHOMENUMBER": "generate:Numeric:7",
+
+              "PropertyInfo_CAREXIST": "Нет",
+
+              "PartofApplication_CODE2": "generate:String:8",
+
+              "MainEmployer2_PHONENUMBER": "generate:Numeric:7",
+
+              "DebtsInfo2_CURRENCY": "Рубли",
+
+              "MainForm_CONDITIONSUPENSIVE": "Не выполнены",
+
+              "ExpertResolution_KICREDITRESOLUTION": "Предоставить",
+
+              "DebtsInfo_SUMMOFCREDIT": "150000",
+
+              "Contractor1_DATEOFISSUE": "generate:DateAgeInYears:1,4",
+
+              "EmploymentInfo2_TOTALEXPIRIENCE2": "0",
+
+              "ReportRealEstate_EXISTREPORT": "Да",
+
+              "EmploymentInfo2_TOTALEXPIRIENCE1": "3",
+
+              "ClientInfo_EXISTPARTICIPANT": "false",
+
+              "ExtraInfo_INSURANCENUMBER": "generate:SNILS",
+
+              "CurrentAddressofRealsEstateObj_TYPEOFCITY": "г",
+
+              "EmploymentInfo2_TOTALEXPIRIENCE4": "0",
+
+              "EmploymentBook_SERIE": "АТ-II",
+
+              "EmploymentInfo2_TOTALEXPIRIENCE3": "3",
+
+              "OrganizationInsName_INN": "generate:INN:10",
+
+              "JobSalaryInfo_INDEXOFWORKPLACESBRF": "нет",
+
+              "Common_QTYOFCREQUESTEDAPP": "1",
+
+              "RealEstateObjectInfo_QTYROOM": "2",
+
+              "LoginInfo_PasswordUrist": "12345",
+
+              "JobSalaryInfo2_FAMILYINCOME6M": "70000",
+
+              "XMLInfo_SUBPRODUCT_CODE": "111",
+
+              "RealEstateObjectInfo_NAMEOBJECTINDIRECTORY": "Квартира",
+
+              "ClientInfo_BIRTHDAY": "generate:DateAgeInYears:27,39",
+
+              "ClientVisualEstimation_PERSINFOEMPL": "Тот же сотрудник, который зарегистрировал заявку в системе",
+
+              "XMLInfo_XMLNAME": "aist\\mortgage\\mortgage_410_one_participant.xml",
+
+              "MainEmployer_PHONEPROVIDER": "generate:Numeric:3",
+
+              "Contractor1_ISSUEDBY": "generate:String:8",
+
+              "RelationsInfo2_QTYFAMILY": "1",
+
+              "MortgagingProperty_TYPEOFRE": "Квартира",
+
+              "Developer_CAContactFIO": "Дятлов Федор Юрьевич",
+
+              "ControlFlowParticipant2_CHECKVAR3": "Нет",
+
+              "SelectedSaller1_ROLE": "Продавец",
+
+              "JobSalaryInfo_TYPEOFCOMPANYCODE": "001",
+
+              "ControlFlowParticipant2_CHECKVAR2": "Нет",
+
+              "ClientInfo_EXSTPHONEPROVIDER": "generate:Numeric:3",
+
+              "ControlFlowParticipant2_CHECKVAR1": "Нет",
+
+              "PartofApplication2_NUMBER2": "generate:Numeric:6",
+
+              "RelationsInfo_FAMSTATUS": "Холост/не замужем",
+
+              "LoginInfo_LoginLpr": "lpr_99",
+
+              "CurrentAddressofRealsEstateObj_STREET": "Тверская ул",
+
+              "RelationsInfo2_CHILDREN": "Нет",
+
+              "PropertyInfo_REALESTATEFLAG": "true",
+
+              "AddressInfo_INDEXOFPERMANENT": "125009",
+
+              "Developer_CAContactMail": "mail@mail.ru",
+
+              "ClientAddressInfo2_REGIONOFFACT": "Москва",
+
+              "DebtsInfo2_DEBTNO": "generate:ContractNumber",
+
+              "PartofApplication2_HPHOMENUMBER": "generate:Numeric:7",
+
+              "DebtsInfo2_CREDITOR": "Сбербанк",
+
+              "JobSalaryInfo_BEENWORKINGINLAST5YEARS": "от 3-х до 5 лет",
+
+              "ReportVerification_REASONOFANALOG": "Отражено",
+
+              "PropertyInfo2_TYPEOFREALESTATE": "Квартира",
+
+              "EmploymentBook2_POSITION": "Специалист",
+
+              "ClientAddressInfo2_INDEXOFFACT": "125009",
+
+              "ClientInfo_PREVIOUSPASSPORT": "Нет",
+
+              "JobSalaryInfo3_DURATIONOFWORK": "от 5 до 10 лет",
+
+              "EmploymentInfo2_EXPIRIENCE1": "3",
+
+              "EmploymentInfo2_EXPIRIENCE2": "0",
+
+              "DebtsInfo_DEBTTYPE": "Автокредит",
+
+              "LoginInfo_PasswordLm": "12345",
+
+              "PartofApplication_PREVSECONDNAME": "generate:Secondname",
+
+              "CreditInfo_REFINANCING": "Нет",
+
+              "ClientInfo_WORKPHONECODE": "7",
+
+              "DriverLicense_ISSUEDATE": "generate:DateAgeInYears:1,4",
+
+              "PartofApplication2_MOBNUMBER": "generate:Numeric:7",
+
+              "DriverLicense_SERIE": "generate:Numeric:4",
+
+              "MainEmployer_FINDOCSTYPE": "1",
+
+              "ReportRealEstate_NREPORT": "generate:Numeric:4",
+
+              "PropertyInfo2_REALESTATEFLAG": "true",
+
+              "PropertyInfo2_TYPEOFCAR": "Наземное ТС",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT6": "Да",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT7": "Комментарий",
+
+              "AssdInfo_NUMCONTRACT": "generate:Numeric:14",
+
+              "XMLInfo_XMLNAMEFORUPDATESTATUS": "soapCorrectAppFromUFS.xml",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT4": "Нет",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT5": "Нет",
+
+              "ClientInfo_PRENAME": "generate:Name",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT2": "Нет",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT3": "Нет",
+
+              "EmploymentBook_TYPEOFORG": "ООО ( Общ. с огрн. ответственностью )",
+
+              "DocumentsVisualEstimation2_DOCVISPOINT1": "Нет",
+
+              "CreditBroker_SALERCORP": "Нет",
+
+              "PhoneVerificationInfo1_LPHONEVERRESULT": "Да",
+
+              "JobSalaryInfo3_ADDITIONALINCOME6M": "0",
+
+              "ClientInfo_INN": "generate:INN:12",
+
+              "JobSalaryInfo_TYPEOFCOMPANY": "ООО (Общ. с огран. ответственностью )",
+
+              "ContractorCorp_OPF": "ООО",
+
+              "PartofApplication2_TYPE": "Физическое лицо",
+
+              "PropertyInfo_PRICEOFCAR": "300000",
+
+              "PartofApplication_NUMBER2": "generate:Numeric:6",
+
+              "PropertyInfo2_REALESTATEPROPERTY": "Да",
+
+              "ReportVerification_SGKRESOLUTION": "Принимать",
+
+              "ClientInfo_SERIE": "generate:Numeric:4",
+
+              "RealEstateObjectInfo_TYPEOFRMAIN": "Квартира",
+
+              "PartofApplication2_HPHOMEPROVIDER": "generate:Numeric:3",
+
+              "LoginInfo_PasswordKI": "12345",
+
+              "RealEstateObjectInfo_TYPEOFREBOUNDED": "Квартира",
+
+              "DebtsInfo_PEREODIC": "Ежемесячно",
+
+              "InitialContributionInfo_AMOUNTCASH": "1000000",
+
+              "PartofApplication_HPHOMECODE": "7",
+
+              "EmploymentBook_NUMBER": "generate:Numeric:7",
+
+              "RealEstateObjectInfo_TYPEOFUSE": "А",
+
+              "PartofApplication_HREGPHOMENUMBER": "generate:Numeric:7",
+
+              "RefinanceExternalDebtsInfo_DATEOFCREDITEXPIRATION1": "generate:Date:Today+2555",
+
+              "PartofApplication2_HREGPHOMENUMBER": "generate:Numeric:7",
+
+              "AddressInfo_LOCALITYSTAYS": "5",
+
+              "DebtsInfo2_RESTOFDEBT": "30000",
+
+              "PartofApplication_NAME": "generate:Name",
+
+              "Common_TESTCLASS": "MortgageAIST2",
+
+              "Authorized1_SECONDNAME1": "generate:Secondname",
+
+              "VerificationFlowREObj_VERVAR1": "Нет",
+
+              "ContractofSaleInf_PRICE": "2000000",
+
+              "VerificationFlowREObj_VERVAR2": "Нет",
+
+              "ClientAddressInfo2_TYPESTREETOFPERMANENT": "ул",
+
+              "ClientInfo_NUMBER2": "generate:Numeric:6",
+
+              "CreditInfo_CURRENCY": "Рубли",
+
+              "ContractofSaleInf_DDOC": "01.01.2016",
+
+              "RealEstateObjInfo_TYPEOFPAWN": "Ипотека в силу закона",
+
+              "XMLInfo_XMLNAMEFOROKISTUB2": "mortgageOKRResponseTemplateSecondCall.xml",
+
+              "PartofApplication2_DATEOFBIRTH": "generate:DateAgeInYears:27,39",
+
+              "SelectedMortGagor1_NAMEOF": "link:ClientInfo.SURNAME",
+
+              "XMLInfo_XMLNAMEFOROKISTUB1": "mortgageOKRResponseTemplateFirstCall.xml",
+
+              "ReportPledgeRealEstate_DATE": "generate:Date:Today",
+
+              "DebtsInfo_CURRENCY": "Рубли",
+
+              "VisualCheckReportRealEstate_VISCHECKPRICETYPE": "Да",
+
+              "ReportRealEstate_DATE": "generate:Date:Today",
+
+              "PropertyInfo2_ADDRESSOFRE": "г. Москва, ул. Тверская 10, кв 5",
+
+              "ClientInfo_ISSUEDBY": "generate:String:8",
+
+              "DebtsInfo_PERCENTAGE": "10",
+
+              "MainEmployer_POSITION": "Ген.Директор",
+
+              "ClientInfo_WORKPHONEPROVIDER": "generate:Numeric:3",
+
+              "LoginInfo_LoginKI": "auto_ki",
+
+              "RefinanceExternalDebtsInfo_NUMOFCREDITCONTRACT1": "generate:Numeric:6",
+
+              "CreditInfo_PRICEO": "2000000",
+
+              "PropertyInfo_EXTPASSPORT": "Нет",
+
+              "AddressInfo_STREETOFFACT": "Тверская",
+
+              "PartofApplication_PREVSURNAME": "generate:Surname",
+
+              "AddressInfo_ROOMNUMBEROFPERMANENT": "generate:Numeric:3",
+
+              "ClientInfo_IOZN": "Нет",
+
+              "VisualCheckRealsEstateDoc_VISREDOCCHECK10": "Нет",
+
+              "MortgagingProperty_NCADASTRE": "generate:Numeric:3",
+
+              "RealEstateObjectInfo_NCADASTRE": "generate:Numeric:3",
+
+              "AddressInfo_REGIONOFFACT": "Москва",
+
+              "ClientInfo_HOMEREGPHONEPROVIDER": "generate:Numeric:3",
+
+              "Realtor_SALERCORP": "Нет",
+
+              "RealEstateObjectInfo_YEAR": "2014",
+
+              "PartofApplication2_EXTRAPHOMETYPE": "Мобильный",
+
+              "PartofApplication2_PROVIDER": "Билайн",
+
+              "Investor_CAContactFIO": "Дятлов Федор Юрьевич",
+
+              "ClientInfo_SURNAME": "generate:Surname",
+
+              "EmploymentInfo_EXPIRIENCE2": "0",
+
+              "EmploymentInfo_EXPIRIENCE1": "3",
+
+              "XMLInfo_XMLDIRPATHFOROKISTUB": "OKRstubMortgage",
+
+              "PhoneVerificationInfo1_LPHONEVERIND": "Да",
+
+              "JobSalaryInfo_CATEGORYOFJOB": "Высококвалифицированный специалист",
+
+              "JobSalaryInfo_FAMILYINCOME6M": "85000",
+
+              "AssdInfo_CREDITTYPE": "34",
+
+              "AddressInfo_TYPESTREETOFPERMANENT": "ул",
+
+              "PhoneVerificationInfo2_WPHONEVERRESULT": "Да",
+
+              "VisualCheckReportRealEstate_VISCHECKDATE1": "generate:Date:Today",
+
+              "VisualCheckReportRealEstate_VISCHECKDATE2": "generate:Date:Today",
+
+              "EmploymentBook2_DATE": "generate:DateAgeInYears:5,6",
+
+              "AddressInfo_TYPECITYOFPERMANENT": "г",
+
+              "VisualCheckReportRealEstate_NUMEXIST": "Да",
+
+              "DriverLicense_NUMBER": "generate:Numeric:8",
+
+              "ClientAddressInfo2_STREETOFPERMANENT": "Тверская",
+
+              "RealEstateObjectInfo_KITCHENSQ": "9",
+
+              "Common_NUMAPP": "000000000",
+
+              "PartofApplication2_EPHOMENUMBER": "generate:Numeric:7",
+
+              "ClientAddressInfo2_MANUALINPUTFORFACT": "Да",
+
+              "LoginInfo_LoginA0": "auto_under_0",
+
+              "JobSalaryInfo_CONFIRMEDINCOME6M": "85000",
+
+              "AddressInfo_HOUSENUMBEROFPERMANENT": "19",
+
+              "Contractor1_SERIE": "generate:Numeric:4",
+
+              "ClientInfo_WORKPHONENUMBER": "generate:Numeric:7",
+
+              "UnderiterResolution2_TEXT": "Текст",
+
+              "ClientInfo_BIRTHPLACE": "generate:String:8",
+
+              "Developer_SALERCORP": "Да",
+
+              "UnderiterResolution2_COMMENT": "А0 Телефонная верификация клиенту",
+
+              "ClientAddressInfo2_TYPESTREETOFFACT": "ул",
+
+              "SaleChannel_CODE": "4",
+
+              "ClientInfo_EXTPHONENUMBER": "generate:Numeric:7",
+
+              "DebtsInfo2_TYPEOFCOVERAGE": "Аннуитетный",
+
+              "PartofApplication2_PREVPASPORT": "Нет",
+
+              "JobSalaryInfo3_FULLNAMEOFCOMPANY": "АУРИКА",
+
+              "XMLInfo_SYSTEM": "UFS",
+
+              "ReportVerification_PHOTO": "Да",
+
+              "PhoneVerificationInfo2_LPHONEVERRESULT": "Да",
+
+              "ContractorCorp_CAContactPhone": "generate:Numeric:10",
+
+              "ExtraInfo_TYPEONDEPOSIT": "На новый текущий счет",
+
+              "ReportVerification_PROFIT": "Нет",
+
+              "PartofApplication_ISSUEDBY": "generate:String:8",
+
+              "PartofApplication_SERIE": "generate:Numeric:4",
+
+              "PartofApplication2_PREVNAME": "generate:Name",
+
+              "ExtraInfo2_DATEOFSIGNATURE": "generate:Date:Today",
+
+              "SaleChannel_SALESURNAME": "generate:Surname",
+
+              "PartofApplication2_HPHOMECODE": "7",
+
+              "PhoneVerificationInfo1_WPHONEVERIND": "Да",
+
+              "ClientInfo_NUMBER": "generate:Numeric:6",
+
+              "Common_DELEVERYMETHOD": "3",
+
+              "PartofApplication2_CHANGEDNAME": "Нет",
+
+              "MainEmployer2_DATEOFDOC": "generate:Date:Today",
+
+              "PartofApplication_EDUCATION": "Второе высшее",
+
+              "LoginInfo_PasswordAuditor": "q12345678",
+
+              "Contractor1_RELATIVE": "Нет",
+
+              "PartofApplication_CODE": "generate:PassportCode",
+
+              "DebtsInfo2_DEBTDATE": "10-окт-2011",
+
+              "Authorized1_SERIE": "generate:Numeric:4",
+
+              "PartofApplication2_MOBCODE": "7",
+
+              "ClientInfo_TYPEOFACPPL": "Нет",
+
+              "InitialContributionInfo_CASHIND": "Да",
+
+              "SaleChannel_MANUAL": "Да",
+
+              "Investor_CONTRAGENT": "Общество с ограниченной ответственностью \"Мортон-Инвест\"",
+
+              "ContractorCorp_STATE2": "АКТИВНАЯ",
+
+              "ReportVerification_TRIP": "Нет",
+
+              "DebtsInfo2_PEREODIC": "Ежемесячно",
+
+              "RealEstateObjectInfo_TYPEOFRE": "Квартира",
+
+              "XMLInfo_COMPLETE_DOCS": "Полный комплект документов",
+
+              "MainEmployer2_PHONEPROVIDER": "generate:Numeric:3",
+
+              "DebtsInfo_RESTOFDEBT": "60000",
+
+              "ClientInfo_DATEOFCHANGE": "generate:DateAgeInYears:1,15",
+
+              "ExtraInfo_ACCEPTCREDITCARDISSUE": "Нет",
+
+              "Contractor1_SALER": "Да",
+
+              "ExtraInfo_DATEOFSIGNATURE": "generate:Date:Today",
+
+              "ReportVerification_SGKREPORTRESOLUTION": "Продолжить",
+
+              "PropertyInfo2_CAREXIST": "Нет",
+
+              "XMLInfo_INTERFACE_ID": "60",
+
+              "RefinanceExternalDebtsInfo_ACCOUNTUPK1": "generate:Numeric:20",
+
+              "PropertyInfo2_CARAGE": "2",
+
+              "SaleChannel_SALESECONDNAME": "generate:Secondname",
+
+              "Common_UNIT": "99795401756",
+
+              "Developer_STATE2": "АКТИВНАЯ",
+
+              "AddressInfo_MANUALINPUTFORFACT": "Да",
+
+              "PartofApplication2_EPHOMEPROVIDER": "generate:Numeric:3",
+
+              "JobSalaryInfo3_JOBTITLE": "Специалист",
+
+              "CreditInfo_TYOEOFOBJECT": "Квартира",
+
+              "ClientInfo_EXTPHONECODE": "7",
+
+              "XMLInfo_CHANNEL": "4",
+
+              "Authorized1_AUTHORIZEDIND": "Да",
+
+              "VerificationContrAgent_RESOLUTION": "Предоставить",
+
+              "RelationsInfo2_FAMSTATUS": "Холост/не замужем",
+
+              "PartofApplication2_PREFERCONTACT": "Мобильный телефон",
+
+              "MainEmployer_PHONECODE": "7",
+
+              "DebtsInfo2_SUMMOFCREDIT": "100000",
+
+              "JobSalaryInfo_TYPEOFACTIVITY": "Финансы, банки, страхование",
+
+              "PartofApplication_HREGPHOMECODE": "7",
+
+              "PropertyInfo2_TYPEOFCAR2": "generate:CarType",
+
+              "EmploymentBook2_SERIE": "АТ-II",
+
+              "DebtsInfo_TYPEOFCOVERAGE": "Аннуитетный",
+
+              "PropertyInfo_SQ": "54",
+
+              "RealEstateObjectInfo_LIVINGSQ": "50",
+
+              "ContractorCorp_KPP": "500901001",
+
+              "ClientInfo_EMAIL": "mail@mail.ru",
+
+              "AddressInfo_BUILDINGOFPERMANENT": "generate:Numeric:1",
+
+              "PartofApplication2_EMAIL": "mail@mail.ru",
+
+              "PropertyInfo2_YEAROFPURCHASECAR": "2013",
+
+              "RealEstateObjectInfo_CATEGORY": "Жилое",
+
+              "AddressInfo_BUILDINGOFFACT": "generate:Numeric:1",
+
+              "XMLInfo_PRODUCT_CODE": "10",
+
+              "ClientInfo_SECONDNAME": "generate:Secondname",
+
+              "JobSalaryInfo2_EXPENSE6M": "0",
+
+              "PropertyInfo_TYPEOFCAR": "Наземное ТС",
+
+              "MortgagingProperty_YEAR": "2009",
+
+              "AssdInfo_DUTYTYPECODE": "1",
+
+              "MainEmployer2_TYPEOFORG": "ООО (Общ. с огран. ответственностью)",
+
+              "DebtsInfo_CREDITOR": "Сбербанк",
+
+              "PropertyInfo_REGNUMOFCAR": "generate:CarStateNumber",
+
+              "RelationsInfo3_FAMSTATUS": "Холост/не замужем",
+
+              "EmploymentBook_DATE": "generate:DateAgeInYears:5,6",
+
+              "ExtraInfo_ACCEPRTCREDITCARDSBRF": "Нет",
+
+              "ClientInfo_PROVIDER": "Билайн",
+
+              "MainEmployer_INCOME2": "link:JobSalaryInfo.CONFIRMEDINCOME6M",
+
+              "AddressInfo_RIGHTOFRESIDENCE": "Собственная квартира",
+
+              "ReportPledgeRealEstate_EXISTREPORT": "Да",
+
+              "ReportPledgeRealEstate_NREPORT": "generate:Numeric:4",
+
+              "CurrentAddressofRealsEstateObj_TYPEOFSTREET": "ул",
+
+              "PartofApplication_WPHOMECODE": "7",
+
+              "SaleChannel_SALENAME": "generate:Name",
+
+             "Common_APPDATE": "2017-11-16",
+
+              "JobSalaryInfo2_FULLNAMEOFCOMPANY": "generate:String:8",
+
+              "DebtsInfo2_DEBTTYPE": "Автокредит",
+
+              "ReportVerification_ESTIMATOR": "Отражено",
+
+              "RealEstateObjectInfo_CATEGORYBOUNDED": "Жилое",
+
+              "RealEstateObjectInfo_CATEGORYMAIN": "Жилое",
+
+              "JobSalaryInfo2_CONTRACT": "Без сроkа (постоянная занятость)",
+
+              "RefinanceExternalDebtsInfo_TYPEOFOBLIGATION1": "Ипотечный",
+
+              "MainEmployer_INCOME": "link:JobSalaryInfo.CONFIRMEDINCOME6M",
+
+              "PartofApplication_CITIZENSHIP": "Российская Федерация",
+
+              "ClientInfo_HOMEREGPHONENUMBER": "generate:Numeric:7",
+
+              "PropertyInfo_REALESTATEPROPERTY": "Да",
+
+              "PartofApplication2_CODE2": "generate:String:8",
+
+              "Authorized1_NUMOFAUTH": "3123213213213",
+
+              "OrganizationInsName_STATE": "АКТИВНАЯ",
+
+              "ContractofSaleInf_DATECONTACT": "generate:Date:Today",
+
+             "JobSalaryInfo2_DURATIONOFWORK": "от 5 до 10 лет",
+
+              "AssdInfo_CREDITVSP": "7954",
+
+              "ClientAddressInfo2_HOUSENUMBEROFPERMANENT": "19",
+
+              "RelationsInfo3_CHILDREN": "Нет",
+
+              "AddressInfo_MATCHINGADDRESS": "Нет",
+
+              "MortgagingProperty_COMMONSQ": "25",
+
+              "Contractor1_BIRTHDAY": "generate:DateAgeInYears:27,39",
+
+              "ClientInfo_MOBPTHONEPROVIDER": "generate:Numeric:3",
+
+              "ContractorCorp_INN": "generate:INN:10",
+
+              "ExtraInfo2_INSURANCENUMBER": "generate:SNILS",
+
+              "PropertyInfo_ADDRESSOFRE": "г. Москва, ул. Тверская 10, кв 5",
+
+              "SaleChannel_PERSONWHOACCEPT": "Тот же сотрудник который зарегистрировал заявку в системе",
+
+              "LoginInfo_PasswordROBOT": "123456",
+
+              "PartofApplication2_DATEOFISSUE2": "generate:DateAgeInYears:5,15",
+
+              "EmploymentBook2_TYPEOFORG": "ООО ( Общ. с огрн. ответственностью )",
+
+              "RealEstateObjectInfo_FLOORQTY": "16"
+
+          },
+
+          "name": "TSMMortgage"
+
+      },
+      {
+          "data": {},
+          "name": "DummyTemplate"
+      },
+
+      {
+
+          "data": {
+
+              "DEPOSITTYPE": "Универсальный Сбербанка России на 5 лет",
+
+              "SERIE1": "45",
+
+              "SERIE2": "11",
+
+              "SERIE": "4511"
+
+          },
+
+          "name": "UniversalDeposit"
+
+      },
+
+      {
+
+          "data": {
+
+              "CURRENCY": "рубль",
+
+              "HOUSENUMBEROFPERMANENT": "9",
+
+              "INN": "generate:INN",
+
+              "CITYOFPERMANENT": "Москва",
+
+              "HOMEPHONEPROVIDER": "generate:Numeric:3",
+
+              "SNILSNUMBER": "generate:SNILS",
+
+              "EMAIL": "mail@mail.ru",
+
+              "MOBPTHONEPROVIDER": "905",
+
+              "BIRTHPLACE": "Москва",
+
+              "POSITION": "Специалист",
+
+              "INDEXOFPERMANENT": "196856",
+
+              "PASSPORTCODE": "123-123",
+
+              "MOBPHONENMBER": "generate:Numeric:7",
+
+              "PROVIDER": "БИЛАЙН",
+
+              "REGIONOFPERMANENT": "Москва",
+
+              "PLACE_OF_WORK": "ОООШКА",
+
+              "HOMEPHONENUMBER": "generate:Numeric:7",
+
+              "PASSPORTISSUEDBY": "ОВД АИСТТЕСТ"
+
+          },
+
+          "name": "SPOOBKCreditCard"
+
+      },
+
+      {
+
+          "data": {
+
+              "SERIE2": "generate:Numeric:4",
+
+              "SECONDNAME": "generate:Secondname",
+
+              "STREETOFPERMANENT": "Тверская",
+
+              "NUMBER2": "generate:Numeric:6",
+
+              "INN": "generate:INN:12",
+
+              "CITYOFPERMANENT": "Москва",
+
+              "ISSUEDBY": "ОВД РАЙОНА СОКОЛИНАЯ ГОРА",
+
+              "EMAIL": "mail@mail.ru",
+
+              "MOBPTHONEPROVIDER": "905",
+
+              "POSITION": "Специалист",
+
+              "INDEXOFFACT": "196856",
+
+              "CITIZENSHIP": "Российская Федерация",
+
+              "HOMEREGPHONEPROVIDER": "generate:Numeric:3",
+
+              "MANUALINPUTFORPERMANENT": "Да",
+
+              "PASSPORTCODE": "537-772",
+
+              "MOBPHONENMBER": "generate:Numeric:7",
+
+              "WORKPHONEPROVIDER": "generate:Numeric:3",
+
+              "GENDER": "Мужской",
+
+              "REGIONOFPERMANENT": "Москва",
+
+              "FULLNAME": "ОООШКА",
+
+              "CITYOFFACT": "Москва",
+
+              "BIRTHDAY": "01.01.1985",
+
+              "PASSPORTISSUEDBY": "ОВД РАЙОНА СОКОЛИНАЯ ГОРА",
+
+              "CURRENCY": "Российский рубль",
+
+              "DATEOFISSUE": "06.06.2011",
+
+              "MOBPHONECODE": "7",
+
+              "ROOMNUMBEROFPERMANENT": "generate:Numeric:3",
+
+              "NUMBER": "generate:Numeric:6",
+
+              "SURNAME": "generate:Surname",
+
+              "PASSPORTDATEOFISSUE": "06.06.2011",
+
+              "HOUSENUMBEROFPERMANENT": "9",
+
+              "HOMEREGPHONENUMBER": "generate:Numeric:7",
+
+              "REGIONOFFACT": "Москва",
+
+              "SERIE": "generate:Numeric:4",
+
+              "BIRTHPLACE": "Москва",
+
+              "HOUSENUMBEROFFACT": "9",
+
+              "NAME": "generate:Name",
+
+              "REQUIREMBK": "Да",
+
+              "CODE": "537-772",
+
+              "BIRTHDAYPLACE": "Москва",
+
+              "INDEXOFPERMANENT": "196856",
+
+              "WORKPHONENUMBER": "generate:Numeric:7"
+
+          },
+
+          "name": "FSDebitCard"
+
+      },
+
+      {
+
+          "data": {
+
+              "spoobk.password": "123456",
+
+              "fsurl": "https://10.68.196.191:9443/spoobk/Web.html",
+
+              "spoobk.login": "spoobk",
+
+              "way4.password": "test321",
+
+              "way4.uri": "jdbc:oracle:thin:@10.116.90.93:1521:WAY4IFT",
+
+              "way4.login": "SidochenkoVV",
+
+              "spoobk.uri": "jdbc:oracle:thin:@10.68.196.163:1521:SPBKXI01",
+
+              "way4.name": "WAY4IFT"
+
+          },
+
+          "name": "11_IFT"
+
+      },
+
+      {
+
+          "data": {
+
+              "spoobk.password": "123456",
+
+              "fsurl": "https://10.68.196.191:9443/spoobk/Web.html",
+
+              "spoobk.login": "spoobk",
+
+              "way4.password": "test321",
+
+              "way4.uri": "jdbc:oracle:thin:@10.116.90.93:1521:WAY4IFT",
+
+              "way4.login": "SidochenkoVV",
+
+              "spoobk.uri": "jdbc:oracle:thin:@10.68.196.163:1521:SPBKXI01",
+
+              "way4.name": "WAY4IFT"
+
+          },
+
+          "name": "13_IFT"
+
+      },
+
+      {
+
+          "data": {
+
+              "ОКОПФ": "ИП"
+
+          },
+
+          "name": "SME.Овердрафт.ИП"
+
+      },
+
+      {
+
+          "data": {
+
+              "ИНН": "444557878788"
+
+          },
+
+          "name": "ТЕСТ1"
+
+      },
+
+      {
+
+          "data": {
+
+              "Пароль": "12345",
+
+              "Логин": "auto_ki"
+
+          },
+
+          "name": "шаблон1"
+
+      },
+
+      {
+
+          "data": {
+
+              "1": "2",
+
+              "2": "3"
+
+          },
+
+          "name": "Schennikov Test"
+
+      },
+
+      {
+
+          "data": {
+
+              "STANDNAME": "STAGE"
+
+          },
+
+          "name": "STAGE"
+
+      },
+
+      {
+
+          "data": {
+
+              "участник 1": "ЮЛ",
+
+              "Продукт": "Бизнес-овердрафт",
+
+              "key": "value"
+
+          },
+
+          "name": "Кредитная сделка малого бизнеса"
+
+      },
+
+      {
+
+          "data": {
+
+              "key": "value"
+
+          },
+
+          "name": "new template"
+
+      },
+
+      {
+
+          "data": {
+
+              "clients[0]->id": "1729263012",
+
+              "clients[0]->document->code": "21",
+
+              "clients[1]->document->issuedBy": "УВД по ЦАО",
+
+              "clients[0]->workPlace->position": "Инженер",
+
+              "clients[0]->lastName": "Добролюбов",
+
+              "clients[2]->workPlace->inn": "",
+
+              "clients[0]->document->series": "4789",
+
+              "clients[1]->alias": "client1",
+
+              "clients[2]->lastName": "Коромыслова",
+
+              "clients[2]->document->issueDate": "2016-02-21",
+
+              "clients[0]->workPlace->companyName": "Сбербанк",
+
+              "clients[1]->document->series": "2221",
+
+              "clients[2]->document->series": "6126",
+
+              "clients[2]->alias": "client2",
+
+              "clients[0]->firstName": "Иван",
+
+              "clients[2]->workPlace->legalForm": "ОАО",
+
+              "clients[2]->workPlace->position": "Инженер",
+
+              "clients[0]->children[0]->birthDate": "2016-12-12",
+
+              "clients[0]->workPlace->legalForm": "ОАО",
+
+              "clients[1]->lastName": "Пушкин",
+
+              "clients[2]->document->issuedBy": "УВД по ЦАО",
+
+              "clients[2]->workPlace->companyName": "Сбербанк",
+
+              "clients[2]->document->code": "21",
+
+              "clients[1]->document->issueDate": "2010-12-12",
+
+              "clients[1]->workPlace->position": "Инженер",
+
+              "clients[2]->middleName": "Тарасовна",
+
+              "clients[0]->children[1]->birthDate": "2016-12-12",
+
+              "clients[1]->id": "1729224064",
+
+              "clients[0]->workPlace->inn": "",
+
+              "clients[1]->firstName": "Александр",
+
+              "clients[1]->workPlace->companyName": "Сбербанк",
+
+              "clients[2]->firstName": "Розалия",
+
+              "clients[2]->document->birthDate": "1980-12-12",
+
+              "clients[2]->id": "0",
+
+              "clients[0]->alias": "client0",
+
+              "clients[1]->document->code": "21",
+
+              "clients[1]->document->number": "456122",
+
+              "clients[1]->middleName": "Сергеевич",
+
+              "clients[2]->document->number": "526452",
+
+              "clients[1]->workPlace->legalForm": "ОАО",
+
+              "clients[0]->middleName": "Васильевич",
+
+              "clients[0]->document->number": "214789",
+
+              "clients[1]->workPlace->inn": ""
+
+          },
+
+          "name": "HSFullBusinessChain"
+
+      }
+
+  ]

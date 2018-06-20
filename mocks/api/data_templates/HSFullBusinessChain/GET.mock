@@ -1,0 +1,102 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+	[
+      {
+
+          "data": {
+
+              "clients[0]->id": "1729263012",
+
+              "clients[0]->document->code": "21",
+
+              "clients[1]->document->issuedBy": "УВД по ЦАО",
+
+              "clients[0]->workPlace->position": "Инженер",
+
+              "clients[0]->lastName": "Добролюбов",
+
+              "clients[2]->workPlace->inn": "",
+
+              "clients[0]->document->series": "4789",
+
+              "clients[1]->alias": "client1",
+
+              "clients[2]->lastName": "Коромыслова",
+
+              "clients[2]->document->issueDate": "2016-02-21",
+
+              "clients[0]->workPlace->companyName": "Сбербанк",
+
+              "clients[1]->document->series": "2221",
+
+              "clients[2]->document->series": "6126",
+
+              "clients[2]->alias": "client2",
+
+              "clients[0]->firstName": "Иван",
+
+              "clients[2]->workPlace->legalForm": "ОАО",
+
+              "clients[2]->workPlace->position": "Инженер",
+
+              "clients[0]->children[0]->birthDate": "2016-12-12",
+
+              "clients[0]->workPlace->legalForm": "ОАО",
+
+              "clients[1]->lastName": "Пушкин",
+
+              "clients[2]->document->issuedBy": "УВД по ЦАО",
+
+              "clients[2]->workPlace->companyName": "Сбербанк",
+
+              "clients[2]->document->code": "21",
+
+              "clients[1]->document->issueDate": "2010-12-12",
+
+              "clients[1]->workPlace->position": "Инженер",
+
+              "clients[2]->middleName": "Тарасовна",
+
+              "clients[0]->children[1]->birthDate": "2016-12-12",
+
+              "clients[1]->id": "1729224064",
+
+              "clients[0]->workPlace->inn": "",
+
+              "clients[1]->firstName": "Александр",
+
+              "clients[1]->workPlace->companyName": "Сбербанк",
+
+              "clients[2]->firstName": "Розалия",
+
+              "clients[2]->document->birthDate": "1980-12-12",
+
+              "clients[2]->id": "0",
+
+              "clients[0]->alias": "client0",
+
+              "clients[1]->document->code": "21",
+
+              "clients[1]->document->number": "456122",
+
+              "clients[1]->middleName": "Сергеевич",
+
+              "clients[2]->document->number": "526452",
+
+              "clients[1]->workPlace->legalForm": "ОАО",
+
+              "clients[0]->middleName": "Васильевич",
+
+              "clients[0]->document->number": "214789",
+
+              "clients[1]->workPlace->inn": ""
+
+          },
+
+          "name": "HSFullBusinessChain"
+
+      }
+
+  ]

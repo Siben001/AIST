@@ -1,0 +1,190 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+[
+  {
+    "name": "DebitCard",
+    "tests": [
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ],
+      "fields": [
+        {
+          "label": "default",
+          "paramName": "default",
+          "regEx": "/test/",
+          "type": "Input"
+        },
+        {
+          "label": "default",
+          "paramName": "default",
+          "type": "DropDown",
+          "dropDownOptions": ["1", "2", "3"]
+        }
+      ]
+  },
+  {
+    "name": "FSClient",
+    "tests": [
+        {
+          "id": 2
+        }
+    ],
+           "fields": [
+             {
+               "label": "default",
+               "paramName": "default",
+               "regEx": "/test/i",
+               "type": "Input"
+             },
+             {
+               "label": "default",
+               "paramName": "default",
+               "type": "DropDown",
+               "dropDownOptions": ["1", "2", "3"]
+             }
+           ]
+  },
+  {
+    "name": "SPOOBKCreditCard",
+    "tests": [
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 4
+        }
+    ],
+           "fields": [
+             {
+               "label": "default",
+               "paramName": "default",
+               "regEx": "/test/i",
+               "type": "Input"
+             },
+             {
+               "label": "default",
+               "paramName": "default",
+               "type": "DropDown",
+               "dropDownOptions": ["1", "2", "3"]
+             }
+           ]
+  },
+  {
+    "name": "SPOOBKCreditCardWithSum",
+    "tests": [
+        {
+          "id": 11
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 13
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 1
+        }
+    ],
+           "fields": [
+             {
+               "label": "default",
+               "paramName": "default",
+               "regEx": "/test/i",
+               "type": "Input"
+             },
+             {
+               "label": "default",
+               "paramName": "default",
+               "type": "DropDown",
+               "dropDownOptions": ["1", "2", "3"]
+             }
+           ]
+  },
+  {
+    "name": "UFS",
+    "tests": [
+        {
+          "id": 201707191401206171
+        },
+        {
+          "id": 201707191401206173
+        }
+    ],
+           "fields": [
+             {
+               "label": "default",
+               "paramName": "default",
+               "regEx": "/test/i",
+               "type": "Input"
+             },
+             {
+               "label": "default",
+               "paramName": "default",
+               "type": "DropDown",
+               "dropDownOptions": ["1", "2", "3"]
+             }
+           ]
+  },
+  {
+    "name": "WAY4CardAccrual",
+    "tests": [
+        {
+          "id": 1
+        }
+    ],
+           "fields": [
+             {
+               "label": "default",
+               "paramName": "default",
+               "regEx": "/test/i",
+               "type": "Input"
+             },
+             {
+               "label": "default",
+               "paramName": "default",
+               "type": "DropDown",
+               "dropDownOptions": ["1", "2", "3"]
+             }
+           ]
+  },
+  {
+    "name": "WAY4Ipass",
+    "tests": [
+        {
+          "id": 10
+        }
+    ],
+           "fields": [
+             {
+               "label": "default",
+               "paramName": "default",
+               "regEx": "/test/i",
+               "type": "Input"
+             },
+             {
+               "label": "default",
+               "paramName": "default",
+               "type": "DropDown",
+               "dropDownOptions": ["1", "2", "3"]
+             }
+           ]
+  }
+]

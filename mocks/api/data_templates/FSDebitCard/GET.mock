@@ -1,0 +1,99 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+	[
+      {
+
+          "data": {
+
+              "SERIE2": "generate:Numeric:4",
+
+              "SECONDNAME": "generate:Secondname",
+
+              "STREETOFPERMANENT": "Тверская",
+
+              "NUMBER2": "generate:Numeric:6",
+
+              "INN": "generate:INN:12",
+
+              "CITYOFPERMANENT": "Москва",
+
+              "ISSUEDBY": "ОВД РАЙОНА СОКОЛИНАЯ ГОРА",
+
+              "EMAIL": "mail@mail.ru",
+
+              "MOBPTHONEPROVIDER": "905",
+
+              "POSITION": "Специалист",
+
+              "INDEXOFFACT": "196856",
+
+              "CITIZENSHIP": "Российская Федерация",
+
+              "HOMEREGPHONEPROVIDER": "generate:Numeric:3",
+
+              "MANUALINPUTFORPERMANENT": "Да",
+
+              "PASSPORTCODE": "537-772",
+
+              "MOBPHONENMBER": "generate:Numeric:7",
+
+              "WORKPHONEPROVIDER": "generate:Numeric:3",
+
+              "GENDER": "Мужской",
+
+              "REGIONOFPERMANENT": "Москва",
+
+              "FULLNAME": "ОООШКА",
+
+              "CITYOFFACT": "Москва",
+
+              "BIRTHDAY": "01.01.1985",
+
+              "PASSPORTISSUEDBY": "ОВД РАЙОНА СОКОЛИНАЯ ГОРА",
+
+              "CURRENCY": "Российский рубль",
+
+              "DATEOFISSUE": "06.06.2011",
+
+              "MOBPHONECODE": "7",
+
+              "ROOMNUMBEROFPERMANENT": "generate:Numeric:3",
+
+              "NUMBER": "generate:Numeric:6",
+
+              "SURNAME": "generate:Surname",
+
+              "PASSPORTDATEOFISSUE": "06.06.2011",
+
+              "HOUSENUMBEROFPERMANENT": "9",
+
+              "HOMEREGPHONENUMBER": "generate:Numeric:7",
+
+              "REGIONOFFACT": "Москва",
+
+              "SERIE": "generate:Numeric:4",
+
+              "BIRTHPLACE": "Москва",
+
+              "HOUSENUMBEROFFACT": "9",
+
+              "NAME": "generate:Name",
+
+              "REQUIREMBK": "Да",
+
+              "CODE": "537-772",
+
+              "BIRTHDAYPLACE": "Москва",
+
+              "INDEXOFPERMANENT": "196856",
+
+              "WORKPHONENUMBER": "generate:Numeric:7"
+
+          },
+
+          "name": "FSDebitCard"
+
+      }
+  ]

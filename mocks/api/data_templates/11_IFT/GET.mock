@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+	[
+      {
+
+          "data": {
+
+              "spoobk.password": "123456",
+
+              "fsurl": "https://10.68.196.191:9443/spoobk/Web.html",
+
+              "spoobk.login": "spoobk",
+
+              "way4.password": "test321",
+
+              "way4.uri": "jdbc:oracle:thin:@10.116.90.93:1521:WAY4IFT",
+
+              "way4.login": "SidochenkoVV",
+
+              "spoobk.uri": "jdbc:oracle:thin:@10.68.196.163:1521:SPBKXI01",
+
+              "way4.name": "WAY4IFT"
+
+          },
+
+          "name": "11_IFT"
+
+      }
+  ]

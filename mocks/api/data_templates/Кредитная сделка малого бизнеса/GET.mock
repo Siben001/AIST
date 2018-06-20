@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+	[
+      {
+
+          "data": {
+
+              "участник 1": "ЮЛ",
+
+              "Продукт": "Бизнес-овердрафт",
+
+              "key": "value"
+
+          },
+
+          "name": "Кредитная сделка малого бизнеса"
+
+      }
+  ]

@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.changeBtn {
+  background-color: #FFF;
+  border: none;
+  align: right;
+}
+
+.changeBtn:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}

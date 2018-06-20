@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+	[
+      {
+
+          "data": {
+
+              "DEPOSITTYPE": "Универсальный Сбербанка России на 5 лет",
+
+              "SERIE1": "45",
+
+              "SERIE2": "11",
+
+              "SERIE": "4511"
+
+          },
+
+          "name": "UniversalDeposit"
+
+      }
+  ]
