@@ -27,6 +27,7 @@ class Template extends React.Component{
   defaultText = 'Enter text'
 
   componentWillMount() {
+    this.props.checkTemplate()
     const {oldName} = this.props
     this.setState({oldName})
   }
@@ -69,22 +70,18 @@ class Template extends React.Component{
   }
 
   getValidateInput() {
-    const lenght = this.props.templateInstance.name.length;
-    if (lenght > 0) return 'success';
+    if (!this.checkEmpty(this.props.templateInstance.name))return 'success';
     return 'error'
   }
 
   getValidateData(label) {
-    const templateData = this.props.templateInstance.data;
-    const lenght = label.length;
-    const repeats = templateData.filter(entry => entry.label == label);
-    if (repeats.length == 1 && lenght != 0) return 'success'
+    if (!this.checkLabel(label) && !this.checkEmpty(label)) return 'success'
     return 'error'
   }
 
   checkDataDuplicate = () => {
     const {templateInstance} = this.props;
-    var err = []
+    let err = []
     templateInstance.data.map((field) => {if (this.checkLabel(field.label) > 0) err.push(field)})
     if (err.length > 0) return true;
     return false
@@ -92,7 +89,7 @@ class Template extends React.Component{
 
   checkData = () => {
     const {templateInstance} = this.props;
-    var err = []
+    let err = []
     templateInstance.data.map((field) => {if (this.checkEmpty(field.label) > 0) err.push(field)})
     if (err.length > 0) return true;
     return false
@@ -106,7 +103,6 @@ class Template extends React.Component{
   }
 
   checkEmpty = (elem) => {
-    console.log(elem)
     if (elem.length == 0) return true;
     return false
   }
@@ -172,7 +168,7 @@ class Template extends React.Component{
 
   render() {
 
-    var {templateInstance, notifications} = this.props;
+    let {templateInstance, notifications} = this.props;
     const {isNameError, isDataError, isDataDuplicate} = this.state
     const addFieldBtn = [
       <Button bsStyle="success" onClick={this.addField}><Glyphicon glyph="plus"/></Button>

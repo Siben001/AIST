@@ -3,7 +3,7 @@ import {
   TEMPLATE_EDITOR_SUCCEED,
   TEMPLATE_FIELD_ADDED,
   TEMPLATE_FIELD_UPDATED,
-  TEMPLATE_FIELD_REMOVED, TEMPLATE_DATA_GET_SUCCEED
+  TEMPLATE_FIELD_REMOVED, TEMPLATE_DATA_GET_SUCCEED,
 } from '../constants'
 
 const initialState = {
@@ -11,13 +11,14 @@ const initialState = {
     name: '',
     data: [],
   },
+  notifications: [],
 };
 
 const templateReducer = (state = initialState, action) => {
   switch (action.type) {
     case TEMPLATE_EDITOR_SUCCEED: {
       return {
-        ...state
+        ...initialState
       }
     }
     case TEMPLATE_NAME_CHANGED: {
@@ -57,7 +58,7 @@ const templateReducer = (state = initialState, action) => {
       }
     }
     case TEMPLATE_DATA_GET_SUCCEED: {
-        var template = {...state.templateInstance};
+        let template = {...state.templateInstance};
         template = action.payload[0];
         const templateInstance = {
           name: template.name,

@@ -1,23 +1,26 @@
 import {connect} from 'react-redux'
-import ChangeFormPage from '../components/ChangeFormPage'
+import TemplateEditorPage from '../components/TemplateEditorPage'
 import {fetchTemplateData, updateTemplate} from "../api";
 import {
+  checkTemplateFetchSucceed,
   templateFieldAdded,
   templateFieldRemoved,
   templateFieldUpdated,
-  templateNameChanged}
+  templateNameChanged
+}
   from "../actions";
 
 function mapStateToProps(state) {
   return {
     templateInstance: state.template.templateInstance,
-    notifications: state.notifications
+    notifications: state.notifications,
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     getTemplateData: (template) => dispatch(fetchTemplateData(template)),
+    checkTemplate: () => dispatch(checkTemplateFetchSucceed()),
     changeName: (name) => dispatch(templateNameChanged(name)),
     addField: (field) => dispatch(templateFieldAdded(field)),
     removeField: (index) => dispatch(templateFieldRemoved(index)),
@@ -26,4 +29,4 @@ function mapDispatchToProps(dispatch) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ChangeFormPage)
+export default connect(mapStateToProps, mapDispatchToProps)(TemplateEditorPage)

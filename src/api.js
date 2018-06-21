@@ -1,5 +1,5 @@
 import {error, success} from "react-notification-system-redux"
-//import axios from 'axios';
+import axios from 'axios';
 import {
   formTemplateFetchSuccseed,
   chainEditorTemplateFetchSucceed,
@@ -15,7 +15,7 @@ import {
   formBuilderChainsFetchFail,
   updateChainFormSucceed,
   updateChainFormFail, templateEditorFetchSucceed, templateEditorFetchFail, submitNewTemplateSucceed,
-  submitNewTemplateFailed, getTemplateDataFailed, getTemplateDataSucceed,
+  submitNewTemplateFailed, getTemplateDataFailed, getTemplateDataSucceed, getTemplateListSucceed, getTemplateListFailed,
 } from './actions'
 import {BACKEND_URL, TEST_URL} from "./constants/endpoints";
 
@@ -240,108 +240,64 @@ export const fetchBuilderChains = () => (dispatch, getState) => {
   })
 };
 
-export const fetchTemplate = (Template) => (dispatch, getState) => {
-  const url = `${TEST_URL}/changeform`;
-  if (Template) {
-    url + `${Template.name}`;
-  }
-
-  fetchUtil(url).then(response => {
-    if (response.ok) {
-      return response
-    } else {
-      throw new Error(response.statusText)
-    }
-  }).then(Template => {
-    if (Template) {
-      dispatch(templateEditorFetchSucceed(Template))
-    } else {
-      dispatch(templateEditorFetchFail())
-    }
-  }).catch(error => {
-    throw error
-  })
-};
-
 export const insertNewTemplate = (Template) => (dispatch, getState) => {
   const url = `${BACKEND_URL}/data_templates`;
-  let header = new Headers();
-  header.append('Content-Type','application/json');
   const templateJson = getJson(Template)
-  const options = {
-    method: 'PUT',
-    headers: header,
-    body: templateJson
-  };
-  fetch(url, options).then(response => {
-    if (response.ok) {
-      return response.json()
-    } else {
-      throw new Error(response.statusText)
+  axios.put(url, templateJson, {
+    headers: {
+      'Content-Type' : 'application/json',
     }
-  }).then(insertNewTemplateResult => {
-    if (insertNewTemplateResult) {
+  })
+    .then(insertNewTemplateResult => {
       dispatch(success({message: "Submit succeeded"}));
       dispatch(submitNewTemplateSucceed(insertNewTemplateResult));
-    }
-  }).catch(err => {
-    dispatch(error({message: "Submit failed with error: " + err.message}));
-  })
+    }).catch(err => {
+      dispatch(error({message: err.message}));
+    })
 };
 
-export const fetchTemplateData= (templateName) => (dispatch, getState) => {
+export const fetchTemplateData = (templateName) => (dispatch, getState) => {
   const url = `${BACKEND_URL}/data_templates/${templateName}`;
-  const options = {
-    method: 'GET',
-    headers: {},
-  };
-  fetch(url, options).then(response => {
-    if (response.ok) {
-      return response.json()
-    } else {
-      throw new Error(response.statusText)
-    }
-  }).then(TemplateData => {
-    if (TemplateData) {
-      dispatch(getTemplateDataSucceed(TemplateData))
-    } else {
-      dispatch(getTemplateDataFailed())
-    }
-  }).catch(err => {
-    dispatch(error({message: "Page failed with error: " + err.message}));
-  })
+  axios.get(url)
+    .then(TemplateData => {
+      dispatch(getTemplateDataSucceed(TemplateData.data))
+    }).catch(err => {
+      dispatch(error({message: "Page failed with error: " + err.message}))
+      dispatch(getTemplateDataFailed());
+    })
 };
 
 export const updateTemplate = (Template, TemplateName) => (dispatch, getState) => {
   const url = `${BACKEND_URL}/data_templates/${TemplateName}`;
-  let header = new Headers();
-  header.append('Content-Type','application/json');
   const templateJson = getJson(Template)
-  const options = {
-    method: 'POST',
-    headers: header,
-    body: templateJson
-  };
-  fetch(url, options).then(response => {
-    if (response.ok) {
-      return response.json()
-    } else {
-      throw new Error(response.statusText)
+  axios.post(url, templateJson, {
+    headers: {
+      'Content-Type' : 'application/json',
     }
-  }).then(updateTemplateResult => {
-    if (updateTemplateResult) {
+  })
+    .then(updateTemplateResult => {
+      if (updateTemplateResult) {
       dispatch(success({message: "Submit succeeded"}));
       dispatch(submitNewTemplateSucceed(updateTemplateResult));
-    }
+      }
+    }).catch(err => {
+      dispatch(error({message: err.message}));
+    })
+};
 
-  }).catch(err => {
-    console.log(err)
-    dispatch(error({message: "Submit failed with error: " + err.message}));
+export const getTemplateList = () => (dispatch) => {
+  const url = `${BACKEND_URL}/data_templates`;
+  axios.get(url)
+    .then(resultTemplateList => {
+      dispatch(getTemplateListSucceed(resultTemplateList.data));
+  })
+    .catch(error => {
+    dispatch(getTemplateListFailed())
   })
 };
 
 const getJson = (templateInstance) => {
-  var dataJson = {}
+  let dataJson = {}
   templateInstance.data.map((fields) => (dataJson[fields.label] = fields.content))
   const templateJson = [{
     name: templateInstance.name,

@@ -10,6 +10,7 @@ import dataTemplate from './dataTemplate'
 import formBuilder from './formBuilder'
 import launcher from "./launcher";
 import template from "./template"
+import templateList from "./templateList";
 
 
 
@@ -20,6 +21,7 @@ const rootReducer = combineReducers({
   scheduleForm: scheduleForm,
   template,
   formTemplate,
+  templateList,
   chainTemplates,
   test,
   dataTemplate,

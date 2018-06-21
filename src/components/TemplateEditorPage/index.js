@@ -7,7 +7,7 @@ import Template from "../Template"
 import Notifications from 'react-notification-system-redux'
 
 
-class ChangeFormPage extends React.Component {
+class TemplateEditorPage extends React.Component {
 
   state = {
     oldName: ""
@@ -16,18 +16,19 @@ class ChangeFormPage extends React.Component {
   componentWillMount() {
     const {formName} = this.props.match.params
     const oldName = formName
-    this.setState({oldName})
+    this.setState({oldName: formName})
     this.props.getTemplateData(formName)
   }
 
   render() {
 
-    const {templateInstance, changeName, addField, removeField, templateUpdate, updateTemplate, notifications} = this.props;
+    const {templateInstance, checkTemplate, changeName, addField, removeField, templateUpdate, updateTemplate, notifications} = this.props;
     const {oldName} = this.state
     return (
         <Template
           templateInstance={templateInstance}
           oldName = {oldName}
+          checkTemplate = {checkTemplate}
           changeName = {changeName}
           addField = {addField}
           removeField = {removeField}
@@ -39,4 +40,4 @@ class ChangeFormPage extends React.Component {
   }
 }
 
-export default ChangeFormPage
+export default TemplateEditorPage

@@ -37,7 +37,7 @@ import {
   SUBMIT_NEW_TEMPLATE_SUCCEED,
   SUBMIT_NEW_TEMPLATE_FAILED,
   TEMPLATE_DATA_GET_FAILED,
-  TEMPLATE_DATA_GET_SUCCEED
+  TEMPLATE_DATA_GET_SUCCEED, TEMPLATE_LIST_SUCCEED, TEMPLATE_LIST_FAILED
 } from './constants'
 
 export const selectChainForm =(payload)=> ({
@@ -220,6 +220,18 @@ export const getTemplateDataFailed = (payload) => ({
 
 })
 
+export const getTemplateListSucceed = (templateList) => ({
+  type: TEMPLATE_LIST_SUCCEED,
+  templateList
+})
+
+export const getTemplateListFailed = () => ({
+  type: TEMPLATE_LIST_FAILED
+})
+
+export const checkTemplateFetchSucceed = () => ({
+  type: TEMPLATE_EDITOR_SUCCEED
+})
 
 
 export const chainSelected = (selectedChain) => ({

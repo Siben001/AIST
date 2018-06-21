@@ -12,15 +12,15 @@ import ChainEditorPage from './containers/ChainEditorPage'
 import FormPage from './containers/FormPage'
 import LauncherPage from "./containers/LauncherPage";
 import FormBuilderPage from "./containers/FormBuilderPage";
-import FormListPage from "./containers/FormListPage";
-import AddFormPage from "./containers/AddFormPage";
-import ChangeFormPage from "./containers/ChangeFormPage";
 import TemplatePage from "./containers/Template"
+import TemplateListPage from "./containers/TemplateListPage";
+import TemplateEditorPage from "./containers/TemplateEditorPage";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'font-awesome/css/font-awesome.min.css'
 import './styles/main.css'
+
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const history = createBrowserHistory()
@@ -42,10 +42,9 @@ ReactDOM.render((
             <Route path="/form/:formName" component={FormPage}/>
             <Route path="/launcher" component={LauncherPage}/>
             <Route path="/formbuilder" component={FormBuilderPage}/>
-            <Route path="/formlist" component={FormListPage}/>
-            <Route path="/addform" component={AddFormPage}/>
-            <Route path="/changeform/:formName" component={ChangeFormPage}/>
-            <Route exact path="/changeform" component={TemplatePage}/>
+            <Route path="/templatelist" component={TemplateListPage}/>
+            <Route exact path="/template/:formName" component={TemplateEditorPage}/>
+            <Route exact path="/template" component={TemplatePage}/>
             <Route exact path="/" component={HomePage}/>
           </Switch>
         </HashRouter>
